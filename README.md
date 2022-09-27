@@ -1,5 +1,5 @@
 # INSTRUNCTIONAL-ASSISTANTS-PROGRAM-ANALYSIS
-Introduction
+# Introduction
 This data analysis project is for the Information Technology Services of Northeastern’s
 Instructional Assistant program. Instructional assistants (IAs) are trained student technicians
 who will be deployed to and will work in the registrar-controlled classrooms to assist faculty with
@@ -9,7 +9,7 @@ are teaching remotely. Student employees will maintain the computers and audio v
 equipment in the NUFlex classrooms across campus. In this project we will analyze the impact
 of this program as well the operational gaps to help the ITS stakeholders improve the efficiency
 and monitor the operations of this program.
-Problem Statement
+# Problem Statement
 To analyze number of dispatches raised in different Halls, Dispatch State, Scope of dispatches,
 Claim Time, Dispatches from multiple classroom equipment, Impact of
 weekday/weekend/holiday dispatches. This would help the ITS team to organize and schedule
@@ -23,7 +23,7 @@ dataset were 3200. The second data set is the instructional assistant dispatch l
 the information of the form responses of the dispatch, once the IA finishes the dispatch, it has
 columns such as the kind of issue, is the escalation required or not, explanation of the issue etc.
 The total number of records in this dataset were 2014.
-Methodology
+# Methodology
 1. Few of the data cleaning steps like conversion of date column to datetime format and
 changing the incorrect naming conventions of the Northeastern Halls were performed
 before integrating the data
@@ -42,7 +42,7 @@ different types like NUFlex Auto, Standard, NUFlex Cart, NUFlex Manual. This was
 integrated taking into account each type of class rooms from which dispatches were
 raised. This insight would help to visualize the number and type of dispatches from each
 type of classroom.
-Design Process
+# Design Process
 The Project was distributed in two dashboards. The first dashboard concentrated on giving an
 overview of the IA program. It was designed to give the user an understanding of all the
 variables that contribute to the working of the IA program. This dashboard also included details
